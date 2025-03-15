@@ -15,9 +15,8 @@ This repository contains the source code for solving a **Parallel Machine Select
     - `cvxpy` 
     - `gurobi`
       
-### Code Description
+### Code files
 
-The code is organized as follows:
 - `Fun_BWK_EAC_ALG2.py`: The proposed LBBD-BC algorithm/The variant with upper bound cuts/ The variant with the relaxation-and-correction procedure
 - `Fun_CCG_ALG.py`:The CCG algorithm.
 - `Fun_CBD_EAC_ALG2.py`:The LBBD-S algorithm.
@@ -25,13 +24,6 @@ The code is organized as follows:
 - `Fun_BCK_EAC_ALG.py`: The variant without warm-start cuts.
 - `Fun_BWK_EAC_ALG.py`: The variant without upper bound cuts.
 - `Fun_CCG_ALG.py`:The CCG algorithm.
-  
-### Instances
-- `T530.zip`: $\theta = 30$
-- `T560.zip`: $\theta = 60$
-  
-### Others
-- `README.md`: This file.
 
 ### Example Code Snippet
 Here is a snippet of the algorithm execution for a given instance:
@@ -68,4 +60,9 @@ for filename in file_name_list:
 ```
 This will run the algorithm for each input instance and save the results.
 
-
+### Instances
+- `T530.zip`: $\theta = 30$
+- `T560.zip`: $\theta = 60$
+  
+### Others
+- `README.md`: This file.
