@@ -1,4 +1,4 @@
-# Project Title: Algorithm Source Code for Robust Parallel Machine Selection and Scheduling Problem with Uncertain Release Times
+# Algorithm Source Code for Robust Parallel Machine Selection and Scheduling Problem with Uncertain Release Times
 ## Overview
 This repository contains the source code for solving a **Parallel Machine Selection and Scheduling** problem with uncertain release times, as proposed in the manuscript *"Robust Parallel Machine Selection and Scheduling with Uncertain Release Times"*. The problem is modeled as a **two-stage robust PMSS model**, where the **release time deviation (RTD)** is characterized by a budget uncertainty set. The goal is to select machines and assign jobs in the first stage to minimize startup costs, and then optimize the job sequence in the second stage to minimize the makespan on each machine after the release times are revealed.
 
