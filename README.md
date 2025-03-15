@@ -29,7 +29,7 @@ The code is organized as follows:
 ### Instances
 - `T530.zip`: $\theta = 30$
 - `T560.zip`: $\theta = 60$
-- 
+  
 ### Others
 - `README.md`: This file.
 
